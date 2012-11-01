@@ -1,0 +1,18 @@
+Package: c2po
+Maintainer: C2PO support <c2po@keminglabs.com>
+Author: Keming Labs
+Version: 0.1.0
+License: MIT
+Title: C2PO
+Description: R bindings to the C2PO grammar of graphics compiler
+Imports:
+    httr
+Suggests:
+    testthat,
+    roxygen2
+Collate:
+    'c2po-package.r'
+    'edn.r'
+    'c2po.r'
+    
+    
